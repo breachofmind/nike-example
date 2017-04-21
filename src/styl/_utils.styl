@@ -12,6 +12,10 @@ smallOnly()
   @media screen and (max-width: bkSmall)
     {block}
 
+mediumOnly()
+  @media screen and (min-width: bkSmall) and (max-width: bkMedium)
+    {block}
+
 .text-center-small
   +smallOnly()
     text-align center
