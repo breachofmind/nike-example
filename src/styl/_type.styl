@@ -10,10 +10,12 @@ h1,h2,h3,h4,h5,h6
   font-family headingFontFamily
   font-weight normal
   text-transform uppercase
+  line-height 100%
 
 a
   color linkColor
   text-decoration none
+  cursor pointer
   &:hover,
   &:focus
     text-decoration underline
@@ -23,9 +25,12 @@ h1
   +largeUp()
     font-size 54px
 
+h3
+  font-size 26px
+
 .page-header-title
   text-align center
-  padding 0
+  padding 15px
   margin 0
   +largeUp()
     margin 30px 0

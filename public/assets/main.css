@@ -2,6 +2,11 @@
   font-family: OneNike;
   src: url("/fonts/OneNike.woff");
 }
+@media screen and (max-width: 39.9375em) {
+  .text-center-small {
+    text-align: center;
+  }
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -17,10 +22,12 @@ h6 {
   font-family: OneNike;
   font-weight: normal;
   text-transform: uppercase;
+  line-height: 100%;
 }
 a {
   color: #666;
   text-decoration: none;
+  cursor: pointer;
 }
 a:hover,
 a:focus {
@@ -34,9 +41,12 @@ h1 {
     font-size: 54px;
   }
 }
+h3 {
+  font-size: 26px;
+}
 .page-header-title {
   text-align: center;
-  padding: 0;
+  padding: 15px;
   margin: 0;
 }
 @media screen and (min-width: 64em) {
@@ -49,17 +59,17 @@ h1 {
     padding-bottom: 30px;
   }
 }
-.l-hero-banner h2 {
+.l-section-hero h2 {
   font-size: 54px;
   margin: 0;
 }
-.l-hero-banner.is-inverse h1,
-.l-hero-banner.is-inverse h2,
-.l-hero-banner.is-inverse h3,
-.l-hero-banner.is-inverse h4,
-.l-hero-banner.is-inverse h5,
-.l-hero-banner.is-inverse h6,
-.l-hero-banner.is-inverse p {
+.l-section-hero.is-inverse h1,
+.l-section-hero.is-inverse h2,
+.l-section-hero.is-inverse h3,
+.l-section-hero.is-inverse h4,
+.l-section-hero.is-inverse h5,
+.l-section-hero.is-inverse h6,
+.l-section-hero.is-inverse p {
   color: #fff;
 }
 .hero-image {
@@ -82,6 +92,31 @@ h1 {
   background-position: center center;
   background-size: cover;
 }
+.l-section-products {
+  padding: 15px;
+}
+@media screen and (min-width: 39.9375em) {
+  .l-section-products {
+    padding: 40px;
+  }
+}
+.product-item {
+  text-align: center;
+}
+.product-item figure {
+  padding: 0;
+  margin: 0;
+}
+.product-item figure img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+.product-item figcaption {
+  font-family: OneNike;
+  text-transform: uppercase;
+  color: #000;
+}
 .button,
 a.button {
   font-family: OneNike;
@@ -90,7 +125,6 @@ a.button {
   padding: 8px 15px;
   display: inline-block;
   border-radius: 3px;
-  text-align: center;
   text-decoration: none;
   color: #000;
   border: 1px solid #efefef;
@@ -106,6 +140,15 @@ a.button:hover {
 .button.is-primary {
   background: #fff;
   color: #000;
+}
+.button.is-link {
+  border: none;
+  padding: 8px 0;
+  display: block;
+}
+.button.expanded {
+  width: 100%;
+  text-align: center;
 }
 .menu-list {
   list-style: none;

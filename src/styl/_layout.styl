@@ -2,14 +2,16 @@
   +mediumUp()
     padding-bottom 30px
 
-.l-hero-banner
+.l-section-hero
   h2
     font-size 54px
     margin 0
 
-.l-hero-banner.is-inverse
+.l-section-hero.is-inverse
   h1,h2,h3,h4,h5,h6,p
     color white
+
+
 
 .hero-image
   height 500px
@@ -28,3 +30,22 @@
 .is-size-cover
   background-position center center
   background-size cover
+
+.l-section-products
+  padding 15px
+  +mediumUp()
+    padding 40px
+
+.product-item
+  text-align center
+  figure
+    padding 0
+    margin 0
+  figure img
+    width 100%
+    max-width 350px
+    height auto
+  figcaption
+    font-family headingFontFamily
+    text-transform uppercase
+    color black
