@@ -4,13 +4,36 @@
   src url("/fonts/OneNike.woff")
 
 
-// vars
-headingFontFamily = OneNike
-bodyFontFamily = Arial, Helvetica, sans-serif
+@require _vars
+@require _utils
+@require _type
+@require _layout
+@require _buttons
 
-body
-  font-family bodyFontFamily
 
 
-h1,h2,h3,h4,h5,h6
-  font-family headingFontFamily
+.menu-list
+  list-style none
+  margin 0
+  padding 0
+  li, li>a
+    display block
+  li>a
+    text-align center
+  +smallOnly()
+    li>a
+      padding 8px 14px
+      border-bottom 1px solid #efefef
+    li:first-child>a
+      border-top 1px solid #efefef
+
+  +mediumUp()
+    display block
+    text-align center
+    li
+      display inline-block
+      padding 0 25px
+      border-right 2px solid linkColor
+      &:last-child
+        border-right none
+

@@ -1,0 +1,31 @@
+// Type styles
+
+body
+  font-family bodyFontFamily
+
+p
+  margin-top 0
+
+h1,h2,h3,h4,h5,h6
+  font-family headingFontFamily
+  font-weight normal
+  text-transform uppercase
+
+a
+  color linkColor
+  text-decoration none
+  &:hover,
+  &:focus
+    text-decoration underline
+
+h1
+  font-size 45px
+  +largeUp()
+    font-size 54px
+
+.page-header-title
+  text-align center
+  padding 0
+  margin 0
+  +largeUp()
+    margin 30px 0

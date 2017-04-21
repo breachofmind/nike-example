@@ -10,7 +10,11 @@
     "init": "browser-sync init",
     "dev": "browser-sync start --config bs.config.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.16.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
   "devDependencies": {
     "autoprefixer": "^6.7.7",
     "babel-core": "^6.24.1",

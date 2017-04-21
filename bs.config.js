@@ -21,7 +21,8 @@ module.exports = {
     },
     "files": [
         "public/*.html",
-        "public/*.css",
+        "public/assets/*.css",
+        "public/assets/*.js",
     ],
     "watchEvents": [
         "change"

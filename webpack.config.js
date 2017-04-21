@@ -2,7 +2,6 @@ const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const STYL_LOADERS = [
-    'style-loader',
     'css-loader',
     'postcss-loader',
     'stylus-loader'
@@ -25,8 +24,11 @@ module.exports = {
     module: {
         rules: [
             {test: /\.css/, use: CSS_LOADERS.map(toLoader)},
-            //{test: /\.styl/, use: ExtractTextPlugin.extract({use: STYL_LOADERS.map(toLoader)})},
-            {test: /\.styl/, use: STYL_LOADERS.map(toLoader)},
+            {test: /\.styl/, use: ExtractTextPlugin.extract({
+                fallback: 'style-loader',
+                use: STYL_LOADERS
+            })},
+            //{test: /\.styl/, use: STYL_LOADERS.map(toLoader)},
             {test: /\.js/, use: JS_LOADERS.map(toLoader)},
         ]
     },
