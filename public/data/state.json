@@ -1,0 +1,106 @@
+{
+  "title": "Nike Men",
+  "menu" : [
+    {
+      "href" : "#",
+      "text" : "Shoes"
+    },
+    {
+      "href" : "#",
+      "text" : "Clothing"
+    },    {
+      "href" : "#",
+      "text" : "Best Sellers"
+    },
+    {
+      "href" : "#",
+      "text" : "Now Trending"
+    },
+    {
+      "href" : "#",
+      "text" : "Nike Free"
+    }
+  ],
+
+  "hero" : {
+    "title" : "Stay Restless",
+    "content" : "Own the court, rule the pitch and run the streets from dawn to dusk. Be everywhere, except inside.",
+    "image" : "/images/banner-0.jpg",
+    "inverse" : true,
+    "link" : {
+      "href" : "#",
+      "text" : "Shop Summer Styles"
+    }
+  },
+
+  "products" : [
+    {
+      "name" : "Running",
+      "image" : "/images/shoe-running.jpg",
+      "href" : "#"
+    },
+    {
+      "name" : "Basketball",
+      "image" : "/images/shoe-basketball.jpg",
+      "href" : "#"
+    },
+    {
+      "name" : "football",
+      "image" : "/images/shoe-football.jpg",
+      "href" : "#"
+    },
+    {
+      "name" : "Training & Gym",
+      "image" : "/images/shoe-training.jpg",
+      "href" : "#"
+    },
+    {
+      "name" : "Sportswear",
+      "image" : "/images/shoe-sportswear.jpg",
+      "href" : "#"
+    },
+    {
+      "name" : "Jordan",
+      "image" : "/images/shoe-jordan.jpg",
+      "href" : "#"
+    }
+  ],
+
+  "banners" : [
+    {
+      "type" : "BANNER_FULL",
+      "data" : {
+        "title" : "Nike Free RN Flyknit 2017",
+        "image" : "/images/banner-1.jpg",
+        "content" : "An upgraded running favorite with greater flex and a more responsive fit.",
+        "href" : "#"
+      }
+    },
+    {
+      "type" : "BANNER_DOUBLE",
+      "data" : [
+        {
+          "title" : "Targeted Cooling and Comfort",
+          "image" : "/images/banner-2a.jpg",
+          "content" : "Zones of engineered open knit deliver cooling where golfers need it most, while optimizing motion through the swing plane - so you'll both look and feel as cool as you possibly can.",
+          "href" : "#"
+        },
+        {
+          "title" : "Nike FlyKnit Multi Racer 2.0",
+          "image" : "/images/banner-2b.jpg",
+          "content" : "The crowd favorite is back.",
+          "href" : "#"
+        }
+      ]
+    },
+    {
+      "type" : "BANNER_FULL",
+      "data" : {
+        "title" : "CR7 Chapter 4 Mercurial Superfly",
+        "image" : "/images/banner-3.jpg",
+        "content" : "He arrived in Manchester as Cristiano Ronaldo. Forged in the fire of battle, he emerged as CR7, one of the greatest players in history.",
+        "href" : "#"
+      }
+    }
+  ]
+}

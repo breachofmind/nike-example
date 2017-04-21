@@ -16,7 +16,7 @@ const JS_LOADERS = [
 ];
 
 module.exports = {
-    entry: path.resolve(__dirname, 'src/js/app.js'),
+    entry: path.resolve(__dirname, 'src/js/main.js'),
     output: {
         path: path.resolve(__dirname, 'public/assets'),
         filename: '[name].bundle.js'
@@ -28,8 +28,8 @@ module.exports = {
                 fallback: 'style-loader',
                 use: STYL_LOADERS
             })},
-            //{test: /\.styl/, use: STYL_LOADERS.map(toLoader)},
             {test: /\.js/, use: JS_LOADERS.map(toLoader)},
+            {test: /\.jsx/, use: JS_LOADERS.map(toLoader)},
         ]
     },
     plugins: [
