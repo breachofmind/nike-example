@@ -61,7 +61,7 @@ h3 {
 }
 .l-section-hero h2 {
   font-size: 54px;
-  margin: 0;
+  margin-bottom: 15px;
 }
 .l-section-hero.is-inverse h1,
 .l-section-hero.is-inverse h2,
