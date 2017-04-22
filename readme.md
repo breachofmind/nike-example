@@ -35,6 +35,7 @@ webpack --watch --progress
 ```
 
 ## Notes
+- The original assets from nike.com changed while I was making this, so I used the most recent ones.
 - Source styles are written in __stylus__ because that's what the folks at Nike use.
 - Only the __Foundation 6 Flex Grid__ was used for base styles.
 - Styles are organized in the [SMACSS](https://smacss.com/book/categorizing) way.
