@@ -102,5 +102,33 @@
         "href" : "#"
       }
     }
-  ]
+  ],
+  "social" : {
+    "apps" : [
+      {
+        "name" : "Nike+ App",
+        "image" :"/images/icon-nikeplus.jpg",
+        "tagline" : "All You Need to Be Your Best",
+        "href" : "#"
+      },
+      {
+        "name" : "Nike+ Run Club App",
+        "image" :"/images/icon-nrc.jpg",
+        "tagline" : "Your Perfect Running Partner",
+        "href" : "#"
+      },
+      {
+        "name" : "Nike+ Training Club App",
+        "image" :"/images/icon-ntc.jpg",
+        "tagline" : "Your Ultimate Personal Trainer",
+        "href" : "#"
+      },
+      {
+        "name" : "Nike+ SNKRS",
+        "image" :"/images/icon-snkrs.jpg",
+        "tagline" : "Your Ultimate Sneaker Destination",
+        "href" : "#"
+      }
+    ]
+  }
 }

@@ -7,7 +7,6 @@ const STYL_LOADERS = [
     'stylus-loader'
 ];
 const CSS_LOADERS = [
-    'style-loader',
     'css-loader',
     'postcss-loader',
 ];
@@ -23,7 +22,10 @@ module.exports = {
     },
     module: {
         rules: [
-            {test: /\.css/, use: CSS_LOADERS.map(toLoader)},
+            {test: /\.css/, use: ExtractTextPlugin.extract({
+                fallback: 'style-loader',
+                use: CSS_LOADERS
+            })},
             {test: /\.styl/, use: ExtractTextPlugin.extract({
                 fallback: 'style-loader',
                 use: STYL_LOADERS
