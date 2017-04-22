@@ -5,4 +5,5 @@ There are two parts to this example:
 - __Static HTML/CSS__ located at `index.html`.
 - __React-based components__ located at `index-components.html`
 
-## Running the example
+## Installing
+1) Clone the repository.
