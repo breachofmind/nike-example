@@ -2163,10 +2163,6 @@ pre {
 .long-delay {
   -webkit-animation-delay: 700ms !important;
           animation-delay: 700ms !important; }
-@font-face {
-  font-family: OneNike;
-  src: url("/fonts/OneNike.woff");
-}
 .is-size-cover {
   background-position: center center;
   background-size: cover;
@@ -2319,7 +2315,6 @@ h5 {
   color: #000;
 }
 .banner-link {
-  display: block;
   height: 300px;
 }
 @media screen and (min-width: 39.9375em) {
