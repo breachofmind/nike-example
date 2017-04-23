@@ -5,6 +5,8 @@ There are two parts to this example:
 - __Static HTML/CSS__ located at `index.html`.
 - __React-based components__ located at `index-components.html`
 
+The bulk of the work only took several hours, as can be seen by the [Punchcard.](https://github.com/breachofmind/nike-example/graphs/punch-card)
+
 ## Installing
 Clone the repository.
 ```bash
