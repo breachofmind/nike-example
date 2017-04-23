@@ -21,7 +21,7 @@ class SocialSection extends React.Component
         });
 
         return(
-            <section className="l-section-social is-background-gray">
+            <aside className="l-section-social is-background-gray">
                 <header className="l-social-header text-center">
                     <h3 className="social-header-title">Introducing Nike+</h3>
                     <p className="social-header-content">Experience everything Nike+ has to offer through Nike.com and our related apps.</p>
@@ -38,7 +38,7 @@ class SocialSection extends React.Component
                         <li><a href="#"><i className="svg-icon social-icon is-youtube"><svg dangerouslySetInnerHTML={useSvg('youtube')}/></i></a></li>
                     </ul>
                 </div>
-            </section>
+            </aside>
         );
     }
 }

@@ -1,9 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>[Prototype] Nike Men's Shoes, Clothing anmd Gear. Nike.com</title>
+	<title>[Prototype] Nike Men's Shoes, Clothing and Gear. Nike.com</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Added here since webpack tries to resolve relative urls -->
 	<style>
 		@font-face {
 			font-family: OneNike;
@@ -144,7 +146,7 @@
 		</footer>
 	</section>
 
-	<section class="l-section-social is-background-gray">
+	<aside class="l-section-social is-background-gray">
 		<header class="l-social-header text-center">
 			<h3 class="social-header-title">Introducing Nike+</h3>
 			<p class="social-header-content">Experience everything Nike+ has to offer through Nike.com and our related apps.</p>
@@ -188,7 +190,7 @@
 				<li><a href="#"><i class="svg-icon social-icon is-youtube"><svg><use xlink:href="svg/social-icons.svg#youtube"></use></svg></i></a></li>
 			</ul>
 		</div>
-	</section>
+	</aside>
 
 	<script>
         document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.8'><\/script>".replace("HOST", location.hostname));
